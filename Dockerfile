@@ -3,7 +3,7 @@ FROM node:24-slim AS build
 WORKDIR /home/app
 COPY . .
 
-RUN npm install
+RUN npm ci
 RUN npm run build
 
 FROM nginx
