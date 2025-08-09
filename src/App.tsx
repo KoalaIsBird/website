@@ -3,12 +3,11 @@ function App() {
 
   return (
     <>
-      <div className="flex justify-center items-center h-screen">
-        <p className="bg-red-600 w-64 text-amber-300 font-bold justify-center flex h-15 items-center rounded-4xl animate-bounce">
-          Andrew's super cool website
-        </p>
-        
-      </div>
+    <div className="text-center my-8 font-bold">Bienvenue sur mon site web!</div>
+    <div className="text-center my-8">Je suis André, j'aime bien l'informatique, le jardinage, la course à pied, la guitare...</div>
+    <div className="text-center my-8">Il n'y a pas grand chose sur le site en ce moment - j'ajouterai du contenu un jour, peut-être...</div>
+    <div className="text-center my-8">Il est hébergé sur un VPS Ubuntu, et son framework est React</div>
+    
     </>
   )
 }
